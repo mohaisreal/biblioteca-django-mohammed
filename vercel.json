@@ -11,6 +11,5 @@
         "src": "/(.*)",
         "dest": "locallibrary/wsgi.py"
       }
-    ],
-    "buildCommand": "python3 manage.py makemigrations && python3 manage.py migrate"
+    ]
 }

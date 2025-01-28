@@ -1,0 +1,14 @@
+from pathlib import Path
+
+DEBUG = True
+
+ALLOWED_HOSTS = ['127.0.0.1']
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3'
+    }
+}
